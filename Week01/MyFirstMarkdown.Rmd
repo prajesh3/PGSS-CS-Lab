@@ -1,0 +1,57 @@
+---
+title: "MyFirstMarkdown"
+output:
+  html_document: default
+  pdf_document: default
+date: '2022-06-28'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r}
+
+library(readr)
+iris <- read_csv("iris.csv", col_names = F)
+colnames(iris) <- c('Sepal.Length', 'Sepal.Width', 'Petal.Length', 'Petal.Width', 'Class')
+
+sapply(iris, class)
+
+iris$Class <- as.factor(iris$Class)
+sapply(iris, class)
+
+
+
+library(dplyr)
+
+iris %>% group_by(Class) %>% summarize(Min.Sepal.Length = min(Sepal.Length, na.rm=T), 
+                                       Max.Sepal.Length = max(Sepal.Length, na.rm=T), 
+                                       Mean.Sepal.Length = mean(Sepal.Length, na.rm=T), 
+                                       SD.Sepal.Length = sd(Sepal.Length, na.rm=T)) %>% as.data.frame()
+
+boxplot(Sepal.Length ~ Class, data = iris)
+boxplot(Sepal.Width ~ Class, data = iris)
+
+```
+
