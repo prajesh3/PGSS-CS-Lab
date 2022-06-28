@@ -1,0 +1,25 @@
+L1 6.20.2022 Notes
+
+first notebook in colab
+  used python to read a file
+  used this dataset: https://archive.ics.uci.edu/ml/datasets/iris
+
+R
+  dtale for graphical analysis: https://pypi.org/project/dtale/
+  
+often, python is less open to people who are trying out stuff since it requires prior knowledge or patience to learn the commands, etc.
+  R's interactive environment is easier to understand and navigate, often used for stats and analysis by people who are more focused on data
+  
+-----------------------------
+summmary 
+Used Colab for python 
+  data analysis wth python in colab with the iris dataset
+    created tables and box plots
+  imported data from google sheets
+  able to use a github link for the data source as well as imported dataset imported into google drive
+
+Used RStudio Cloud for R
+  data analysis with R with iris dataset
+    created tables
+  created a markdown document that allows for the program code and the outputs to be displayed on one document or webpage
+  
