@@ -1,1 +1,53 @@
 L2 7.1.22 Notes
+
+data set for today - https://raw.githubusercontent.com/menonpg/CMU_PGSS_2021/main/Week01/L2-762021/britishSeatBeltStudy.csv
+
+vscode (visual studio code) download to have a local ide
+- syntax highlighted
+- open local files
+
+linux commands for terminal
+cd - change directory
+wget - downlaod from the link
+
+miniconda 
+anaconda
+- both packages (can install) to do extra stuff
+- can create environments with all stuff for one project (can install stuff etc just to a certain environment in order to keep stuff together)
+conda cheat sheet - https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf
+
+can get to jupyter lab though anaconda
+
+used python to explore seatbelt data set above
+- see the relations between data using scatter and box plots
+- good for ml type things with models and tuning those models to see relations in data (sklearn type things)
+
+used r to explore seatbelt data set above
+- r is often better to do the variable relations determinations
+
+confusion matrix: https://www.google.com/search?q=recall+precision&rlz=1C1GCEB_enUS1012US1012&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi5-7zFxtj4AhX1JjQIHYniCYcQ_AUoAXoECAEQAw&biw=2560&bih=1272&dpr=1.5#imgrc=nYqOGlaevKD4rM
+
+classification vs regression
+
+classification:
+- logistic regression
+- categorical response
+
+regression:
+- linear regression
+- continuous response
+
+summary
+- review colab and rstudio cloud
+- used seabelt data set
+- understand differences between categorical and continuous response variables: linear regression vs classification (logistic regression) in r and python
+- difference btwn quantitative and qualitative analyses and meaning of statistical testing with hypotheses (H0 is null hyp, H1 is alternate hyp)
+- analysis of classification model results using a confusion matrix, roc anaysis and using sk learn classification reporting techniques
+- using box plots to evaluate the optimal operating threshold of a model
+
+made some cool graphs with sklearn
+sklearn has a ton of data analysis type stuff beyond the two we used in lab today
+all these models can help analyze data
+
+just abt everything can be done in r and python
+
