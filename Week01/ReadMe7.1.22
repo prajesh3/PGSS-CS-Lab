@@ -51,3 +51,35 @@ all these models can help analyze data
 
 just abt everything can be done in r and python
 
+datasets
+- 1) UC Irvine ML datasets repository:
+https://archive.ics.uci.edu/ml/datasets.php
+
+- datasets.google.com
+
+from canvas
+Lecture 2: Working with Tabular and Text Data [Regression v/s Classification]
+Datasets to explore:
+1) UC Irvine ML datasets repository:
+https://archive.ics.uci.edu/ml/datasets.php (Links to an external site.)
+2) Internal datasets:
+a) R: library(datasets)
+b) Sklearn Datasets:
+from sklearn.datasets
+             import load_iris iris = load_iris()
+
+Key topic:  Building classification and regression models from tabular data
+
+Understanding boxplots in separating categorical classes based on a continuous variable
+What is a statistical test (t-test)
+What is classification
+What is regression
+Building a classification model in R and python (Logistic Regression)
+Building a regression model in R
+
+
+
+----------------------
+
+
+for next lab: find a dataset, make a notebook, and optional share in class (email dr. menon in advance to present and discuss notebook)
