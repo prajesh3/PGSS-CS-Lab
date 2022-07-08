@@ -29,3 +29,12 @@ distilbert - distilled version of bert
   
 neural nets 
   weights: don't set the weight suddely to a  number, often you start with a weight and a multiplier and adjust them as the model is trained
+
+process
+  cleanse: text --> remove: special chars, punctuation, html; correct: case; fix stuff --> clean text
+  split data to train and test
+  train model and characterize it
+    text --> standard length numeric representation (embedding to model) was made by transformer
+  save model
+  load model and make a prediction on new data
+  
