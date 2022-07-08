@@ -1,0 +1,20 @@
+7.8.22 Notes
+
+text dataset
+- hard to use since there is so much that could be going on: words, punctuation, special characters, metaphors and fig lang, etc. 
+- can do varios tasks: 
+  - matching (ex. job to resume like indeed)
+  - ranks (ex. which of the matches are best)
+  - retrieval (ex. diplaying/getting certain data points)
+  - clasification (ex. political party, sentiment)
+  - regression (ex by age)
+  matching, ranking, retrieval usually work together
+  use libraries with all these different things
+  
+transformers turn language into a coordinate system as described below (often 768 dimensions)
+  this can be used to relate various texts that can be matched, etc with dist formula
+  this is done through neural nets
+any point in space can be defined by the eigan vectors that define the space
+to find the magnitude of the distance between two points in space, use distance formula
+
+often, there are 768 dimensions that can be then reduced to 3, through dimensionality reduction
