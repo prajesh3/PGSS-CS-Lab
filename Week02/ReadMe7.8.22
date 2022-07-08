@@ -22,3 +22,10 @@ often, there are 768 dimensions that can be then reduced to 3, through dimension
 
 standardize text using cleantext and cleaning the text
 
+distilbert - distilled version of bert 
+  knowledge transfer - knowledge distillation was used to make it
+  https://huggingface.co/distilbert-base-uncased
+  https://arxiv.org/abs/1910.01108
+  
+neural nets 
+  weights: don't set the weight suddely to a  number, often you start with a weight and a multiplier and adjust them as the model is trained
