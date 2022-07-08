@@ -38,3 +38,8 @@ process
   save model
   load model and make a prediction on new data
   
+can configure local vs to github: https://support.atlassian.com/bitbucket-cloud/docs/configure-your-dvcs-username-for-commits/
+
+finding outliers
+  for removing outliers, the IQR of a boxpolt*1.5 is the +/- on mean for tolerance (typically)
+  cooks-d
