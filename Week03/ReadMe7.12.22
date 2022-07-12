@@ -1,2 +1,52 @@
 7.12.22 Notes
 
+what do we know/what have we learned so far?
+  set up dev environment (local, colab, rstudio, vscode, github)
+    R, Python
+      scripting, markdowns, notebooks
+
+knowledge areas
+  tabular data analysis
+    eda: summaries, plots, etc (exploratory data analysis)
+    linear regression
+    linear classification
+  performance analysis
+    roc, auc, confusionmatrices, etc
+  basic stats 
+    distributions
+      parametric assumptions for normal dist.
+  statistical testing
+    differences between groups - t test
+  NLP - natural language processiing
+    transformers - numreical representation for text
+    tokens for analysis
+    analyzing data in the context of classification
+  knowledge distillation
+    
+    
+whats new for today and ahead?
+  knowledge areas
+    image analysis
+    1D signal analysis
+    unsupervised eda
+      dimensionality reduction
+      projection
+    synthetic data generation
+    
+  development environment skills
+    telling data stories
+      web apps
+      save and load models for web api/app deployment
+    what is containerization 
+      ci/cd
+      IAAS
+    low code/no code
+      eda 
+      model building
+    libs
+      h2o
+      pycaret
+      streamlit
+      docker
+
+take several obsevers opinions to account for inter observer variability
