@@ -50,3 +50,16 @@ whats new for today and ahead?
       docker
 
 take several obsevers opinions to account for inter observer variability
+
+plot types 
+  scatter plot - explore data
+  linear - display the linear quality of data
+  
+  
+sdv lib
+  gaussiancopula to describe joint distribution of several variables (parametric curves) - use for exptrapolations 
+    does make some parametric assumptions but till works for estimations
+    
+based on these data analyses, you can use human analysis to figure out your solution/answer to your question about that data
+
+many libraries exist to do graphic data analysis (dtale, pandas profiling, sweetviz, autoviz)
