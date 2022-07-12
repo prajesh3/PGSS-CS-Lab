@@ -66,3 +66,12 @@ many libraries exist to do graphic data analysis (dtale, pandas profiling, sweet
 
 crowd source data for color guessing
 
+mindsDB - nocode/lowcode platform
+  can connect to dbs or import files from local
+  sql to edit database
+  
+h2o is a library that does low/no code stuff directly in notebook
+openjdk is needed for h2o, as it is a python thing with java background that is necessary for h2o to run
+vs code is needed for local running
+  essentially, after setup, there is an interactive environment (localhost:54321 in search bar) that allows for easy analysis
+  
