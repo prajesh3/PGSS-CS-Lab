@@ -10,3 +10,21 @@ open terminal
 
 click source control button 
 initialize as own repository or clone an existing repository
+
+
+recognize conda
+conda install git to install git
+conda env list to see list of environments
+ctrl shift p shows select interpreter
+  select miniconda base as interpreter to see git
+  
+conda create --clone base --name parilab2022
+    to create new env without changing base env
+then conda activate parilab2022 to get it to work 
+
+streamlit to make webapps 
+make a ui for a webapp such as a ui for graph making
+
+pip install 
+pip3 install pipreqs
+
