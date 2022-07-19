@@ -29,4 +29,3 @@ pip install streamlit
 pip install pipreqs
 
 once in the streamlit app code, run it with streamlit run streamlitBase.py --server.port=8501 
-
