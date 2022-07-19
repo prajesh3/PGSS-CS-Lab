@@ -25,6 +25,8 @@ then conda activate parilab2022 to get it to work
 streamlit to make webapps 
 make a ui for a webapp such as a ui for graph making
 
-pip install 
-pip3 install pipreqs
+pip install streamlit
+pip install pipreqs
+
+once in the streamlit app code, run it with streamlit run streamlitBase.py --server.port=8501 
 
