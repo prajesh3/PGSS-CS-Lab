@@ -1,5 +1,11 @@
-7.22.22 Notes L7
+7.22.22 Notes L8
 
 using github copilot in vscode to create data analysis models
   use a github education account to get access to pro github and copilot
 
+copilot can have errors, etc but if you know your goal and what you are doing with the code, you can strategically use copilot to quickly write code for your goal
+
+fast api - able to access the model from various sources rather than just straight source code
+
+input > 3rd party web app (which calls the api service for insight) > output algo/data/etc
+put a meter on it to make money and have a smart contract to protect your intellectual property
